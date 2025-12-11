@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Porcelanika - Nosotros</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg fw-light bg-light">
+            <div class="container container-width">
+                <a class="navbar-brand fs-4" href="index.html">Porcelanika</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-house"></i>
+                                Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html"><i class="bi bi-person"></i> Nosotros
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tienda.html"><i class="bi bi-bag"></i> Tienda </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="contacto.html"><i class="bi bi-mail"></i> Contacto
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Más
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="noticias.html">Noticias</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="card text-bg-dark portada mx-auto" style="height: 500px;">
+            <img src="img/Banner-porcelanas-decoradas.png" class="card-img h-100" style="filter: brightness(70%);"
+                alt="...">
+            <div class="container card-img-overlay d-flex flex-column justify-content-center">
+                <h1 class="card-title fs-1 mb-4">Enterate mas, Contactanos!</h1>
+                <h4 class="card-text fw-light">¡Somos el toque que tu casa necesita!</h4>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="container my-5">
+            <hr class="my-5">
+            <div class="row justify-content-center align-items-center">
+
+                <div class="col-12 col-md-6 mb-4">
+                    <div class="h-100 text-justify">
+                        <div class="card-body text-center">
+                            <h3 class="fw-normal text-danger">Dónde Encontrarnos</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quo explicabo velit facere
+                                fugit earum,
+                                corrupti cupiditate animi sapiente ipsa repudiandae minima repellat quasi corporis
+                                repellendus facilis ea nulla dolorem.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 text-center">
+                    <div class="shadow p-3 rounded">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2899.859061796634!2d-76.94752800107675!3d-12.073096836670548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses-419!2spe!4v1765418499292!5m2!1ses-419!2spe"
+                            class="w-100" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-5">
+        </section>
+
+        <section class="container my-5 row mx-auto">
+
+            <div class="col-12 col-lg-4 ">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h3 class="fw-normal mb-4 text-danger ">Formulario de Contacto</h3>
+                        <form class="needs-validation" novalidate>
+
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre Completo</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+                                <div class="invalid-feedback">Por favor ingresa tu nombre.</div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="correo" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="correo" placeholder="tucorreo@ejemplo.com"
+                                    required>
+                                <div class="invalid-feedback">Ingresa un correo válido.</div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="motivo" class="form-label">Motivo de la consulta</label>
+                                <select class="form-select" id="motivo" required>
+                                    <option selected disabled value="">Selecciona un motivo</option>
+                                    <option>Consulta sobre productos</option>
+                                    <option>Pedido personalizado</option>
+                                    <option>Otro</option>
+                                </select>
+                                <div class="invalid-feedback">Selecciona un motivo.</div>
+                            </div>
+
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" id="privacidad" required>
+                                <label class="form-check-label" for="privacidad">
+                                    Confirmo que he leído la política de privacidad.
+                                </label>
+                                <div class="invalid-feedback">Debes aceptar la política.</div>
+                            </div>
+
+                            <button type="button" class="btn btn-danger w-100" data-bs-toggle="modal"
+                                data-bs-target="#mensajeModal">
+                                Enviar Mensaje
+                            </button>
+                        </form>
+
+                        <div class="modal fade" id="mensajeModal" tabindex="-1" aria-labelledby="mensajeModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-success text-white">
+                                        <h5 class="modal-title" id="mensajeModalLabel">¡Éxito!</h5>
+                                        <button type="button" class="btn-close btn-close-white"
+                                            data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body text-center">
+                                        <i class="bi bi-check-circle-fill text-success fs-1 mb-3"></i>
+                                        <p>Tu mensaje ha sido recibido. Te responderemos a la brevedad. (Simulación)</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success"
+                                            data-bs-dismiss="modal">Aceptar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 my-5 mx-auto">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h3 class="fw-normal mb-4 text-danger">Horarios de Atención</h3>
+                        <table class="table table-bordered text-center">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Día</th>
+                                    <th>Horario</th>
+                                    <th>Estado</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Lunes - Viernes</td>
+                                    <td>8:30 - 18:00</td>
+                                    <td><span class="text-success fw-semibold">Abierto</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Sábado</td>
+                                    <td>8:30 - 13:00</td>
+                                    <td><span class="text-warning fw-semibold">Medio día</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Domingo</td>
+                                    <td>Cerrado</td>
+                                    <td><span class="text-danger fw-semibold">Cerrado</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-5">
+        </section>
+    </main>
+
+    <footer class="bg-light text-danger pt-3 p-2">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-12 col-md-4 mb-3 fw-light">
+                    <h2 class="fw-normal mb-4">Porcelanika</h2>
+                    <div>
+                        <ul class="list-unstyled">
+                            <li>
+                                <h5 class="fw-normal">Dirección</h5>
+                                <p>Jirón Ayacucho 523 - La Molina</p>
+                            </li>
+
+                            <li>
+                                <h5 class="fw-normal">Horario</h5>
+                                <p>Lunes a Sábado de 8:30 AM a 6:00 PM</p>
+                            </li>
+
+                            <li>
+                                <h5 class="fw-normal">Síguenos</h5>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a href="https://www.facebook.com" target="_blank" class="text-primary">
+                                            <i class="bi bi-facebook fs-4"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://www.instagram.com" target="_blank" style="color:#E1306C;">
+                                            <i class="bi bi-instagram fs-4"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://www.tiktok.com" target="_blank" style="color:#000000;">
+                                            <i class="bi bi-tiktok fs-4"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://www.youtube.com" target="_blank" class="text-danger">
+                                            <i class="bi bi-youtube fs-4"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-4 mb-3 fw-light">
+                    <h4 class="fw-normal">Nosotros</h4>
+                </div>
+
+                <div class="col-12 col-md-4 mb-3 fw-light">
+                    <h4 class="fw-normal">Contacto</h4>
+                    <p>Si estás interesado en hacer una compra, visítanos o comunícate a nuestro WhatsApp: +51 999 999
+                        999</p>
+                    <a href="https://whatsapp.com" target="_blank" style="color: #25D366;"><i
+                            class="bi bi-whatsapp fs-4"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Porcelanika - Tienda</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg fw-light bg-light">
+            <div class="container container-width">
+                <a class="navbar-brand fs-4" href="index.html">Porcelanika</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-house"></i>
+                                Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html"><i class="bi bi-person"></i> Nosotros </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="tienda.html"><i class="bi bi-bag"></i> Tienda </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html"><i class="bi bi-mail"></i> Contacto
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Más
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="noticias.html">Noticias</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="card text-bg-dark portada mx-auto" style="height: 500px;">
+            <img src="img/porcelana-ceramica-portada-5.png" class="card-img h-100" style="filter: brightness(70%);"
+                alt="...">
+            <div class="container card-img-overlay d-flex flex-column justify-content-center">
+                <h1 class="card-title fs-1 mb-4">Dale Elegancia a tu hogar!</h1>
+                <h4 class="card-text fw-light">¡Somos el toque que tu casa necesita!</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-5 mb-5">
+        <ul class="nav nav-tabs mb-4" id="tiendaTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active text-danger" id="tazas-tab" data-bs-toggle="tab" data-bs-target="#tazas"
+                    type="button">Tazas</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link text-danger" id="platos-tab" data-bs-toggle="tab" data-bs-target="#platos"
+                    type="button">Platos</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link text-danger" id="jarrones-tab" data-bs-toggle="tab" data-bs-target="#jarrones"
+                    type="button">Jarrones</button>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="tiendaTabsContent">
+            <div class="tab-pane fade show active " id="tazas">
+
+                <div class="row mb-5">
+                    <div class="col-12 col-md-4 mb-3">
+                        <img src="img/img-porDefecto.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Taza 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card’s content.</p>
+                            <a href="#" class="btn btn-outline-danger">Añadir al Carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 mb-3">
+                        <img src="img/img-porDefecto.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Taza 2</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card’s content.</p>
+                            <a href="#" class="btn btn-outline-danger">Añadir al Carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 mb-3">
+                        <img src="img/img-porDefecto.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Taza 3</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card’s content.</p>
+                            <a href="#" class="btn btn-outline-danger">Añadir al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="col-12 col-md-4 mb-3">
+                        <img src="img/img-porDefecto.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Taza 4</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card’s content.</p>
+                            <a href="#" class="btn btn-outline-danger">Añadir al Carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 mb-3">
+                        <img src="img/img-porDefecto.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Taza 5</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card’s content.</p>
+                            <a href="#" class="btn btn-outline-danger">Añadir al Carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 mb-3">
+                        <img src="img/img-porDefecto.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Taza 6</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card’s content.</p>
+                            <a href="#" class="btn btn-outline-danger">Añadir al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="platos">
+
+                <div class="row mb-5">
+                    <div class="col-12 col-md-4 mb-3">
+                        <img src="img/img-porDefecto.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Plato 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card’s content.</p>
+                            <a href="#" class="btn btn-outline-danger">Añadir al Carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 mb-3">
+                        <img src="img/img-porDefecto.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Plato 2</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card’s content.</p>
+                            <a href="#" class="btn btn-outline-danger">Añadir al Carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 mb-3">
+                        <img src="img/img-porDefecto.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Plato 3</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card’s content.</p>
+                            <a href="#" class="btn btn-outline-danger">Añadir al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="col-12 col-md-4 mb-3">
+                        <img src="img/img-porDefecto.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Plato 4</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card’s content.</p>
+                            <a href="#" class="btn btn-outline-danger">Añadir al Carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 mb-3">
+                        <img src="img/img-porDefecto.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Plato 5</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card’s content.</p>
+                            <a href="#" class="btn btn-outline-danger">Añadir al Carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 mb-3">
+                        <img src="img/img-porDefecto.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Plato 6</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card’s content.</p>
+                            <a href="#" class="btn btn-outline-danger">Añadir al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="jarrones">
+
+                <div class="row mb-5">
+                    <div class="col-12 col-md-4 mb-3">
+                        <img src="img/img-porDefecto.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Jarron 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card’s content.</p>
+                            <a href="#" class="btn btn-outline-danger">Añadir al Carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 mb-3">
+                        <img src="img/img-porDefecto.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Jarron 2</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card’s content.</p>
+                            <a href="#" class="btn btn-outline-danger">Añadir al Carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 mb-3">
+                        <img src="img/img-porDefecto.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Jarron 3</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card’s content.</p>
+                            <a href="#" class="btn btn-outline-danger">Añadir al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="col-12 col-md-4 mb-3">
+                        <img src="img/img-porDefecto.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Jarron 4</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card’s content.</p>
+                            <a href="#" class="btn btn-outline-danger">Añadir al Carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 mb-3">
+                        <img src="img/img-porDefecto.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Jarron 5</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card’s content.</p>
+                            <a href="#" class="btn btn-outline-danger">Añadir al Carrito</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 mb-3">
+                        <img src="img/img-porDefecto.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Jarron 6</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card’s content.</p>
+                            <a href="#" class="btn btn-outline-danger">Añadir al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-light text-danger pt-3 p-2">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-12 col-md-4 mb-3 fw-light">
+                    <h2 class="fw-normal mb-4">Porcelanika</h2>
+                    <div>
+                        <ul class="list-unstyled">
+                            <li>
+                                <h5 class="fw-normal">Dirección</h5>
+                                <p>Jirón Ayacucho 523 - La Molina</p>
+                            </li>
+
+                            <li>
+                                <h5 class="fw-normal">Horario</h5>
+                                <p>Lunes a Sábado de 8:30 AM a 6:00 PM</p>
+                            </li>
+
+                            <li>
+                                <h5 class="fw-normal">Síguenos</h5>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a href="https://www.facebook.com" target="_blank" class="text-primary">
+                                            <i class="bi bi-facebook fs-4"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://www.instagram.com" target="_blank" style="color:#E1306C;">
+                                            <i class="bi bi-instagram fs-4"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://www.tiktok.com" target="_blank" style="color:#000000;">
+                                            <i class="bi bi-tiktok fs-4"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://www.youtube.com" target="_blank" class="text-danger">
+                                            <i class="bi bi-youtube fs-4"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-4 mb-3 fw-light">
+                    <h4 class="fw-normal">Nosotros</h4>
+                </div>
+
+                <div class="col-12 col-md-4 mb-3 fw-light">
+                    <h4 class="fw-normal">Contacto</h4>
+                    <p>Si estás interesado en hacer una compra, visítanos o comunícate a nuestro WhatsApp: +51 999 999
+                        999</p>
+                    <a href="https://whatsapp.com" target="_blank" style="color: #25D366;"><i
+                            class="bi bi-whatsapp fs-4"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
